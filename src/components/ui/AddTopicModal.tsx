@@ -31,7 +31,11 @@ export const AddTopicModal: React.FC<AddTopicModalProps> = ({ onAdd, onClose }) 
 
   return (
     <div className="overlay" onClick={onClose}>
-      <div className="modal" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="modal"
+        style={{ overflowY: 'auto', maxHeight: '90vh' }}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="flex items-center justify-between mb-4">
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 18 }}>Add New Topic</h2>
           <button onClick={onClose} style={{ background: 'transparent', color: 'var(--text-muted)', padding: 4 }}>

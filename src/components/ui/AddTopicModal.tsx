@@ -33,7 +33,7 @@ export const AddTopicModal: React.FC<AddTopicModalProps> = ({ onAdd, onClose }) 
     <div className="overlay" onClick={onClose}>
       <div
         className="modal"
-        style={{ overflowY: 'auto', maxHeight: '70vh' }}
+        style={{ overflowY: 'auto', maxHeight: 'none' }}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between mb-4">

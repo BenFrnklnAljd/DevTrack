@@ -224,7 +224,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; }
   justify-content: center;
   z-index: 100;
   animation: fadeIn 0.2s ease;
-  padding: 16px;
+  padding: 310px 15px 15px;
 }
 .modal {
   background: var(--bg-card);

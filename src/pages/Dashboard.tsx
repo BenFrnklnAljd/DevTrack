@@ -51,7 +51,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ topics, sessions, onMarkTo
       }}>
         <div className="text-sm text-muted mb-1">{format(new Date(), 'EEEE, MMMM d')}</div>
         <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800, marginBottom: 4 }}>
-          {greeting()} 👋
+          {greeting()} 
         </h1>
         <p className="text-sm text-muted">
           {todaySessions.length === 0

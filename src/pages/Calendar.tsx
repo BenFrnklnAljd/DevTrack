@@ -189,7 +189,7 @@ export const CalendarPage: React.FC<CalendarProps> = ({ topics, sessions, onTogg
       {selectedTopic && (
         <div className="card">
           <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 14, marginBottom: 12 }}>
-            Last 4 Weeks Activity
+            Past Weeks Activity
           </div>
           <div style={{ display: 'flex', gap: 3 }}>
             {Array.from({ length: 28 }, (_, i) => {

@@ -213,7 +213,7 @@ export const CalendarPage: React.FC<CalendarProps> = ({ topics, sessions, onTogg
             })}
           </div>
           <div className="flex justify-between mt-1">
-            <span className="text-xs text-muted">4 weeks ago</span>
+            
             
           </div>
         </div>

@@ -65,7 +65,7 @@ export const TopicsPage: React.FC<TopicsPageProps> = ({ topics, sessions, onAdd,
         <div className="grid-2 mb-4">
           <div className="stat-card">
             <div className="stat-label">Current Streak</div>
-            <div className="stat-value" style={{ color: '#F59E0B' }}>🔥 {streak}</div>
+            <div className="stat-value" style={{ color: '#F59E0B' }}> {streak}</div>
             <div className="text-xs text-muted">days</div>
           </div>
           <div className="stat-card">

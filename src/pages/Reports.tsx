@@ -156,7 +156,7 @@ export const ReportsPage: React.FC<ReportsProps> = ({ topics, sessions }) => {
               <div className="flex gap-3 text-xs text-muted">
                 <span> {streak} streak</span>
                 <span> {longest} best</span>
-                <span>⏱ {formatMinutes(totalMins)}</span>
+                <span> {formatMinutes(totalMins)}</span>
               </div>
               {i < topics.length - 1 && <div className="divider" />}
             </div>

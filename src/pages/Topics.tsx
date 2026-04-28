@@ -70,7 +70,7 @@ export const TopicsPage: React.FC<TopicsPageProps> = ({ topics, sessions, onAdd,
           </div>
           <div className="stat-card">
             <div className="stat-label">Best Streak</div>
-            <div className="stat-value" style={{ color: 'var(--accent)' }}>🏆 {longestStreak}</div>
+            <div className="stat-value" style={{ color: 'var(--accent)' }}> {longestStreak}</div>
             <div className="text-xs text-muted">days</div>
           </div>
           <div className="stat-card">
